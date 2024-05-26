@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Button x:Name="btnRed" FontSize="60" Content="Красный" Background="Gray" Click="btnRed_Click" Width="340" />
+        <Button x:Name="btnYellow" FontSize="60" Content="Желтый" Background="Gray" Click="btnYellow_Click" Width="340" />
+        <Button x:Name="btnGreen" FontSize="60" Content="Зеленый" Background="Gray" Click="btnGreen_Click" Width="340" />
+    </StackPanel>
+</Window>
